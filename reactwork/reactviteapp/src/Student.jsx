@@ -19,5 +19,4 @@ function Student({data}) {
         </div>
   )
 }
-
 export default Student

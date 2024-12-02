@@ -2,12 +2,14 @@ import React from 'react'
 import Student from './Student';
 import UseStudentState from "./UseStudentState"
 import Imagemanipulation from './Imagemanipulation';
+import UseFetchAPI from './UseFetchApi';
 function App() {
   const h1=<h1>Hello World</h1>;
  const mystyle={
   color:'red',
   backgroundColor:'yellow'
  }
+ 
 //  const studentdata =[{
 //   college:"ABES Engineering College",
 //   name:"Kuldeep",
@@ -76,7 +78,8 @@ function App() {
     <h2>Hello using stateHook</h2>
     <div>
       {/* <UseStudentState/> */}
-      <Imagemanipulation/>
+      {/* <Imagemanipulation/> */}
+      <UseFetchAPI/>
     </div>
   </div>
   )
